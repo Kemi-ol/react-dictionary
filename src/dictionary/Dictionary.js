@@ -3,6 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";  
 import Results from "../Results"
 import HomeImage from "../HomeImage";
+import ImagesAPI from "../api/ImagesAPI";
 
 
 
@@ -41,7 +42,9 @@ const handleKeywordChange = (event) => {
              {!results && <HomeImage/>}
         </form>
                <div className = 'results'>
-               
+        <ImagesAPI keyword= {keyword}/>
+       <br />
+       <hr />
         <Results results={results}/>
         </div>
         </div>

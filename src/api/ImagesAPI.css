@@ -1,0 +1,14 @@
+.ImagesAPI {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures that items stay in a single row */
+}
+  
+  .ImagesAPI .images {
+    height: 30%;
+    width: 30%; /* Set width to auto to maintain aspect ratio */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

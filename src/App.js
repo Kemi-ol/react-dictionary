@@ -9,7 +9,8 @@ function App() {
       <Dictionary />
     </div>
     <footer>
-    <small>coded by Kemi Oluwasanmi </small>
+      <a href="https://github.com/Kemi-ol/react-dictionary"> <small>Coded by Kemi Oluwasanmi </small></a>
+   
     </footer>
     </div>
   );

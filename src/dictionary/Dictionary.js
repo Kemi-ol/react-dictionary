@@ -30,8 +30,8 @@ const handleKeywordChange = (event) => {
 }
 
     return (
-        <div className="dictionary">
-        <form onSubmit={handleSearch}>
+        <div >
+        <form onSubmit={handleSearch} className="dictionary">
             <input type="search" autoFocus={true} onChange ={handleKeywordChange} />
         </form>
         <div className = 'results'>
